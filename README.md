@@ -7,7 +7,7 @@
 
 <div id="top" align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2506.18904-b31b1b.svg)](https://arxiv.org/abs/2506.18904)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.18904-b31b1b.svg)](http://arxiv.org/abs/2509.25191)
 [![](https://img.shields.io/badge/%F0%9F%9A%80%20-Project%20Page-blue)](https://dekuliutesla.github.io/vggt-x.github.io/)
 
 </div>
