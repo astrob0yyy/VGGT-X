@@ -1,7 +1,7 @@
 <p align="center">
 <h1 align="center"><strong> <img src="assets/72.png" width="30" height="30">  VGGT-X: When VGGT Meets Dense Novel View Synthesis</strong></h1>
   <p align="center">
-    <em>Institute of Automation, Chinese Academy of Sciences; University of Chinese Academy of Sciences</em>
+    <em>Institute of Automation, Chinese Academy of Sciences; University of Chinese Academy of Sciences; Linketic</em>
   </p>
 </p>
 
