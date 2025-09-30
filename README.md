@@ -36,8 +36,12 @@ We study the problem of applying 3D Foundation Models (3DFMs) to dense Novel Vie
 ## 🤗 Citation
 If you find this repository useful for your research, please use the following BibTeX entry for citation.
 
-    @Misc{tclight,
-      author = {Yang Liu, Chuanchen Luo, Zimo Tang, Junran Peng, Zhaoxiang Zhang},
-      title  = {VGGT-X GitHub Page},
-      year   = {2025},
+    @misc{liu2025vggtxvggtmeetsdense,
+          title={VGGT-X: When VGGT Meets Dense Novel View Synthesis}, 
+          author={Yang Liu and Chuanchen Luo and Zimo Tang and Junran Peng and Zhaoxiang Zhang},
+          year={2025},
+          eprint={2509.25191},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV},
+          url={https://arxiv.org/abs/2509.25191}, 
     }
